@@ -7,10 +7,12 @@ move osu mainia map to song\maniaMap folder
   
 # 已知问题 Known issues
 1 如果osu文件路径有空格（比如你的osu在C:\Program Files\osu），则会无法复制。  
-2 如果铺面文件中既有mania类的铺面也有其他类的谱面，则该谱面还是会移动至maniaMap文件夹。    
+2 如果铺面文件中既有mania类的铺面也有其他类的谱面，则该谱面还是会移动至maniaMap文件夹。  
+  
 1 If the osu file path has spaces (for example, your osu is in C:\Program Files\osu), it will be faild.  
 2 If there are both mania type beatmaps and other types of beatmaps in this beatmaps, the beatmaps will still be moved to maniaMap folder.
   
 # 使用方法 Instructions
-首先，把moveManiaMap.bat文件放入osu游戏文件内的Songs文件夹（记得备份），然后双击运行moveManiaMap.bat文件。它会在当前文件夹（osu\Songs）创建一个maniaMap文件夹，然后将所有的Mania类型的谱面将会移动至那里。  
+首先，把moveManiaMap.bat文件放入osu游戏文件内的Songs文件夹（记得备份），然后双击运行moveManiaMap.bat文件。它会在当前文件夹（osu\Songs）创建一个maniaMap文件夹，然后将所有的Mania类型的谱面将会移动至那里。
+  
 First, put the moveManiaMap.bat file into the Songs folder in the osu game file (remember to back it up), then double-click to run the moveManiaMap.bat file. It will create a mainaMap folder in the current folder (osu\Songs), and then all mania type beatmaps will be moved there.
